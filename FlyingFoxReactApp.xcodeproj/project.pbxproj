@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28EED30E2BD1162100B231B0 /* FlyingFoxReactAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED30D2BD1162100B231B0 /* FlyingFoxReactAppApp.swift */; };
+		28EED3102BD1162100B231B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED30F2BD1162100B231B0 /* ContentView.swift */; };
+		28EED3122BD1162100B231B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED3112BD1162100B231B0 /* Item.swift */; };
+		28EED3142BD1162400B231B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3132BD1162400B231B0 /* Assets.xcassets */; };
+		28EED3172BD1162400B231B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3162BD1162400B231B0 /* Preview Assets.xcassets */; };
+		28EED3222BD1162400B231B0 /* FlyingFoxReactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED3212BD1162400B231B0 /* FlyingFoxReactAppTests.swift */; };
+		28EED32C2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */; };
+		28EED32E2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28EED31E2BD1162400B231B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EED3022BD1162100B231B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EED3092BD1162100B231B0;
+			remoteInfo = FlyingFoxReactApp;
+		};
+		28EED3282BD1162400B231B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EED3022BD1162100B231B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EED3092BD1162100B231B0;
+			remoteInfo = FlyingFoxReactApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28EED30A2BD1162100B231B0 /* FlyingFoxReactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingFoxReactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED30D2BD1162100B231B0 /* FlyingFoxReactAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppApp.swift; sourceTree = "<group>"; };
+		28EED30F2BD1162100B231B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28EED3112BD1162100B231B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		28EED3132BD1162400B231B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EED3162BD1162400B231B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28EED3182BD1162400B231B0 /* FlyingFoxReactApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingFoxReactApp.entitlements; sourceTree = "<group>"; };
+		28EED31D2BD1162400B231B0 /* FlyingFoxReactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingFoxReactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED3212BD1162400B231B0 /* FlyingFoxReactAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppTests.swift; sourceTree = "<group>"; };
+		28EED3272BD1162400B231B0 /* FlyingFoxReactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingFoxReactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITests.swift; sourceTree = "<group>"; };
+		28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EED3072BD1162100B231B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED31A2BD1162400B231B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED3242BD1162400B231B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EED3012BD1162100B231B0 = {
+			isa = PBXGroup;
+			children = (
+				28EED30C2BD1162100B231B0 /* FlyingFoxReactApp */,
+				28EED3202BD1162400B231B0 /* FlyingFoxReactAppTests */,
+				28EED32A2BD1162400B231B0 /* FlyingFoxReactAppUITests */,
+				28EED30B2BD1162100B231B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EED30B2BD1162100B231B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EED30A2BD1162100B231B0 /* FlyingFoxReactApp.app */,
+				28EED31D2BD1162400B231B0 /* FlyingFoxReactAppTests.xctest */,
+				28EED3272BD1162400B231B0 /* FlyingFoxReactAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EED30C2BD1162100B231B0 /* FlyingFoxReactApp */ = {
+			isa = PBXGroup;
+			children = (
+				28EED30D2BD1162100B231B0 /* FlyingFoxReactAppApp.swift */,
+				28EED30F2BD1162100B231B0 /* ContentView.swift */,
+				28EED3112BD1162100B231B0 /* Item.swift */,
+				28EED3132BD1162400B231B0 /* Assets.xcassets */,
+				28EED3182BD1162400B231B0 /* FlyingFoxReactApp.entitlements */,
+				28EED3152BD1162400B231B0 /* Preview Content */,
+			);
+			path = FlyingFoxReactApp;
+			sourceTree = "<group>";
+		};
+		28EED3152BD1162400B231B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3162BD1162400B231B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28EED3202BD1162400B231B0 /* FlyingFoxReactAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3212BD1162400B231B0 /* FlyingFoxReactAppTests.swift */,
+			);
+			path = FlyingFoxReactAppTests;
+			sourceTree = "<group>";
+		};
+		28EED32A2BD1162400B231B0 /* FlyingFoxReactAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */,
+				28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */,
+			);
+			path = FlyingFoxReactAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EED3092BD1162100B231B0 /* FlyingFoxReactApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED3312BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactApp" */;
+			buildPhases = (
+				28EED3062BD1162100B231B0 /* Sources */,
+				28EED3072BD1162100B231B0 /* Frameworks */,
+				28EED3082BD1162100B231B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingFoxReactApp;
+			productName = FlyingFoxReactApp;
+			productReference = 28EED30A2BD1162100B231B0 /* FlyingFoxReactApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EED31C2BD1162400B231B0 /* FlyingFoxReactAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED3342BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactAppTests" */;
+			buildPhases = (
+				28EED3192BD1162400B231B0 /* Sources */,
+				28EED31A2BD1162400B231B0 /* Frameworks */,
+				28EED31B2BD1162400B231B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EED31F2BD1162400B231B0 /* PBXTargetDependency */,
+			);
+			name = FlyingFoxReactAppTests;
+			productName = FlyingFoxReactAppTests;
+			productReference = 28EED31D2BD1162400B231B0 /* FlyingFoxReactAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28EED3262BD1162400B231B0 /* FlyingFoxReactAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EED3372BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactAppUITests" */;
+			buildPhases = (
+				28EED3232BD1162400B231B0 /* Sources */,
+				28EED3242BD1162400B231B0 /* Frameworks */,
+				28EED3252BD1162400B231B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EED3292BD1162400B231B0 /* PBXTargetDependency */,
+			);
+			name = FlyingFoxReactAppUITests;
+			productName = FlyingFoxReactAppUITests;
+			productReference = 28EED3272BD1162400B231B0 /* FlyingFoxReactAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EED3022BD1162100B231B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					28EED3092BD1162100B231B0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					28EED31C2BD1162400B231B0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28EED3092BD1162100B231B0;
+					};
+					28EED3262BD1162400B231B0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 28EED3092BD1162100B231B0;
+					};
+				};
+			};
+			buildConfigurationList = 28EED3052BD1162100B231B0 /* Build configuration list for PBXProject "FlyingFoxReactApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EED3012BD1162100B231B0;
+			productRefGroup = 28EED30B2BD1162100B231B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EED3092BD1162100B231B0 /* FlyingFoxReactApp */,
+				28EED31C2BD1162400B231B0 /* FlyingFoxReactAppTests */,
+				28EED3262BD1162400B231B0 /* FlyingFoxReactAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EED3082BD1162100B231B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED3172BD1162400B231B0 /* Preview Assets.xcassets in Resources */,
+				28EED3142BD1162400B231B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED31B2BD1162400B231B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED3252BD1162400B231B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EED3062BD1162100B231B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED3102BD1162100B231B0 /* ContentView.swift in Sources */,
+				28EED3122BD1162100B231B0 /* Item.swift in Sources */,
+				28EED30E2BD1162100B231B0 /* FlyingFoxReactAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED3192BD1162400B231B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED3222BD1162400B231B0 /* FlyingFoxReactAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EED3232BD1162400B231B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EED32C2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift in Sources */,
+				28EED32E2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EED31F2BD1162400B231B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EED3092BD1162100B231B0 /* FlyingFoxReactApp */;
+			targetProxy = 28EED31E2BD1162400B231B0 /* PBXContainerItemProxy */;
+		};
+		28EED3292BD1162400B231B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EED3092BD1162100B231B0 /* FlyingFoxReactApp */;
+			targetProxy = 28EED3282BD1162400B231B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28EED32F2BD1162400B231B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28EED3302BD1162400B231B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		28EED3322BD1162400B231B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingFoxReactApp/FlyingFoxReactApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingFoxReactApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28EED3332BD1162400B231B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingFoxReactApp/FlyingFoxReactApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingFoxReactApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		28EED3352BD1162400B231B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingFoxReactApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyingFoxReactApp";
+			};
+			name = Debug;
+		};
+		28EED3362BD1162400B231B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingFoxReactApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyingFoxReactApp";
+			};
+			name = Release;
+		};
+		28EED3382BD1162400B231B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FlyingFoxReactApp;
+			};
+			name = Debug;
+		};
+		28EED3392BD1162400B231B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V2V8Y4T24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moshi.tech.FlyingFoxReactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FlyingFoxReactApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EED3052BD1162100B231B0 /* Build configuration list for PBXProject "FlyingFoxReactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED32F2BD1162400B231B0 /* Debug */,
+				28EED3302BD1162400B231B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED3312BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED3322BD1162400B231B0 /* Debug */,
+				28EED3332BD1162400B231B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED3342BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED3352BD1162400B231B0 /* Debug */,
+				28EED3362BD1162400B231B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EED3372BD1162400B231B0 /* Build configuration list for PBXNativeTarget "FlyingFoxReactAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EED3382BD1162400B231B0 /* Debug */,
+				28EED3392BD1162400B231B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EED3022BD1162100B231B0 /* Project object */;
+}
