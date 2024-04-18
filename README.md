@@ -40,6 +40,7 @@ Now we are ready to serve index.html
 
 I just simply copied all the resources into bundle
 
-![image](https://github.com/DreamRunnerMoshi/FlyingFoxReactApp/assets/4157158/646af999-1d13-4d7b-86eb-3307c4d80a17)
+![image](https://github.com/DreamRunnerMoshi/FlyingFoxReactApp/assets/4157158/e99057e4-46d6-4ae4-9032-e999ab80c33c)
+
 
 
