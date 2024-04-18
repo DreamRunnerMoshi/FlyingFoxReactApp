@@ -16,6 +16,7 @@
 		28EED32C2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */; };
 		28EED32E2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */; };
 		28EED33D2BD11AB500B231B0 /* FlyingFox in Frameworks */ = {isa = PBXBuildFile; productRef = 28EED33C2BD11AB500B231B0 /* FlyingFox */; };
+		28EED33F2BD11C4100B231B0 /* FlyingFoxServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED33E2BD11C4100B231B0 /* FlyingFoxServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		28EED3272BD1162400B231B0 /* FlyingFoxReactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingFoxReactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITests.swift; sourceTree = "<group>"; };
 		28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28EED33E2BD11C4100B231B0 /* FlyingFoxServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				28EED3132BD1162400B231B0 /* Assets.xcassets */,
 				28EED3182BD1162400B231B0 /* FlyingFoxReactApp.entitlements */,
 				28EED3152BD1162400B231B0 /* Preview Content */,
+				28EED33E2BD11C4100B231B0 /* FlyingFoxServer.swift */,
 			);
 			path = FlyingFoxReactApp;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				28EED3102BD1162100B231B0 /* ContentView.swift in Sources */,
 				28EED3122BD1162100B231B0 /* Item.swift in Sources */,
+				28EED33F2BD11C4100B231B0 /* FlyingFoxServer.swift in Sources */,
 				28EED30E2BD1162100B231B0 /* FlyingFoxReactApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

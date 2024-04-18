@@ -12,6 +12,13 @@ import FlyingFox
 
 @main
 struct FlyingFoxReactApp: App {
+    
+    init() {
+        _ = Task {
+            await FlyingFoxServer().Start()
+        }
+    }
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
