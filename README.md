@@ -43,5 +43,10 @@ I just simply copied all the resources into bundle
 
 ![image](https://github.com/DreamRunnerMoshi/FlyingFoxReactApp/assets/4157158/e99057e4-46d6-4ae4-9032-e999ab80c33c)
 
+Now, run your SwiftApp, in browser locate [localhost:61002](http://localhost:61002/home)
+
+Feel free to raise pull request to enhance capability.
+
+
 
 
