@@ -17,6 +17,21 @@
 		28EED32E2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */; };
 		28EED33D2BD11AB500B231B0 /* FlyingFox in Frameworks */ = {isa = PBXBuildFile; productRef = 28EED33C2BD11AB500B231B0 /* FlyingFox */; };
 		28EED33F2BD11C4100B231B0 /* FlyingFoxServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED33E2BD11C4100B231B0 /* FlyingFoxServer.swift */; };
+		28EED3672BD124C900B231B0 /* asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3592BD124B300B231B0 /* asset-manifest.json */; };
+		28EED3682BD124C900B231B0 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3552BD124B300B231B0 /* favicon.ico */; };
+		28EED3692BD124C900B231B0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3542BD124B300B231B0 /* index.html */; };
+		28EED36A2BD124C900B231B0 /* logo192.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3562BD124B300B231B0 /* logo192.png */; };
+		28EED36B2BD124C900B231B0 /* logo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3582BD124B300B231B0 /* logo512.png */; };
+		28EED36C2BD124C900B231B0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3572BD124B300B231B0 /* manifest.json */; };
+		28EED36D2BD124C900B231B0 /* robots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28EED35A2BD124B300B231B0 /* robots.txt */; };
+		28EED36E2BD124C900B231B0 /* main.f855e6bc.css in Resources */ = {isa = PBXBuildFile; fileRef = 28EED35B2BD124B400B231B0 /* main.f855e6bc.css */; };
+		28EED36F2BD124C900B231B0 /* main.f855e6bc.css.map in Resources */ = {isa = PBXBuildFile; fileRef = 28EED35C2BD124B400B231B0 /* main.f855e6bc.css.map */; };
+		28EED3702BD124C900B231B0 /* 453.0b5dbeed.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 28EED35E2BD124B400B231B0 /* 453.0b5dbeed.chunk.js */; };
+		28EED3712BD124C900B231B0 /* 453.0b5dbeed.chunk.js.map in Resources */ = {isa = PBXBuildFile; fileRef = 28EED35F2BD124B400B231B0 /* 453.0b5dbeed.chunk.js.map */; };
+		28EED3722BD124C900B231B0 /* main.77872807.js in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3602BD124B400B231B0 /* main.77872807.js */; };
+		28EED3732BD124C900B231B0 /* main.77872807.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3612BD124B400B231B0 /* main.77872807.js.LICENSE.txt */; };
+		28EED3742BD124C900B231B0 /* main.77872807.js.map in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3622BD124B400B231B0 /* main.77872807.js.map */; };
+		28EED3752BD124C900B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg in Resources */ = {isa = PBXBuildFile; fileRef = 28EED3642BD124B400B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +65,36 @@
 		28EED32B2BD1162400B231B0 /* FlyingFoxReactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITests.swift; sourceTree = "<group>"; };
 		28EED32D2BD1162400B231B0 /* FlyingFoxReactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxReactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		28EED33E2BD11C4100B231B0 /* FlyingFoxServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingFoxServer.swift; sourceTree = "<group>"; };
+		28EED3402BD1241600B231B0 /* main.f855e6bc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.f855e6bc.css; sourceTree = "<group>"; };
+		28EED3412BD1241600B231B0 /* main.f855e6bc.css.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = main.f855e6bc.css.map; sourceTree = "<group>"; };
+		28EED3432BD1241600B231B0 /* 453.0b5dbeed.chunk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 453.0b5dbeed.chunk.js; sourceTree = "<group>"; };
+		28EED3442BD1241600B231B0 /* 453.0b5dbeed.chunk.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = 453.0b5dbeed.chunk.js.map; sourceTree = "<group>"; };
+		28EED3452BD1241600B231B0 /* main.77872807.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.77872807.js; sourceTree = "<group>"; };
+		28EED3462BD1241600B231B0 /* main.77872807.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.77872807.js.LICENSE.txt; sourceTree = "<group>"; };
+		28EED3472BD1241600B231B0 /* main.77872807.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = main.77872807.js.map; sourceTree = "<group>"; };
+		28EED3492BD1241600B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg; sourceTree = "<group>"; };
+		28EED34C2BD1241600B231B0 /* asset-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "asset-manifest.json"; sourceTree = "<group>"; };
+		28EED34D2BD1241600B231B0 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		28EED34E2BD1241600B231B0 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		28EED34F2BD1241600B231B0 /* logo192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo192.png; sourceTree = "<group>"; };
+		28EED3502BD1241600B231B0 /* logo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo512.png; sourceTree = "<group>"; };
+		28EED3512BD1241600B231B0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		28EED3522BD1241600B231B0 /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = robots.txt; sourceTree = "<group>"; };
+		28EED3542BD124B300B231B0 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = build/index.html; sourceTree = "<group>"; };
+		28EED3552BD124B300B231B0 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = build/favicon.ico; sourceTree = "<group>"; };
+		28EED3562BD124B300B231B0 /* logo192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo192.png; path = build/logo192.png; sourceTree = "<group>"; };
+		28EED3572BD124B300B231B0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = build/manifest.json; sourceTree = "<group>"; };
+		28EED3582BD124B300B231B0 /* logo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo512.png; path = build/logo512.png; sourceTree = "<group>"; };
+		28EED3592BD124B300B231B0 /* asset-manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "asset-manifest.json"; path = "build/asset-manifest.json"; sourceTree = "<group>"; };
+		28EED35A2BD124B300B231B0 /* robots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robots.txt; path = build/robots.txt; sourceTree = "<group>"; };
+		28EED35B2BD124B400B231B0 /* main.f855e6bc.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.f855e6bc.css; sourceTree = "<group>"; };
+		28EED35C2BD124B400B231B0 /* main.f855e6bc.css.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = main.f855e6bc.css.map; sourceTree = "<group>"; };
+		28EED35E2BD124B400B231B0 /* 453.0b5dbeed.chunk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = 453.0b5dbeed.chunk.js; sourceTree = "<group>"; };
+		28EED35F2BD124B400B231B0 /* 453.0b5dbeed.chunk.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = 453.0b5dbeed.chunk.js.map; sourceTree = "<group>"; };
+		28EED3602BD124B400B231B0 /* main.77872807.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.77872807.js; sourceTree = "<group>"; };
+		28EED3612BD124B400B231B0 /* main.77872807.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.77872807.js.LICENSE.txt; sourceTree = "<group>"; };
+		28EED3622BD124B400B231B0 /* main.77872807.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = main.77872807.js.map; sourceTree = "<group>"; };
+		28EED3642BD124B400B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +126,15 @@
 		28EED3012BD1162100B231B0 = {
 			isa = PBXGroup;
 			children = (
+				28EED3592BD124B300B231B0 /* asset-manifest.json */,
+				28EED3552BD124B300B231B0 /* favicon.ico */,
+				28EED3542BD124B300B231B0 /* index.html */,
+				28EED3562BD124B300B231B0 /* logo192.png */,
+				28EED3582BD124B300B231B0 /* logo512.png */,
+				28EED3572BD124B300B231B0 /* manifest.json */,
+				28EED35A2BD124B300B231B0 /* robots.txt */,
+				28EED3662BD124B400B231B0 /* static */,
+				28EED3532BD1241600B231B0 /* build */,
 				28EED30C2BD1162100B231B0 /* FlyingFoxReactApp */,
 				28EED3202BD1162400B231B0 /* FlyingFoxReactAppTests */,
 				28EED32A2BD1162400B231B0 /* FlyingFoxReactAppUITests */,
@@ -143,6 +197,100 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28EED3422BD1241600B231B0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3402BD1241600B231B0 /* main.f855e6bc.css */,
+				28EED3412BD1241600B231B0 /* main.f855e6bc.css.map */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		28EED3482BD1241600B231B0 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3432BD1241600B231B0 /* 453.0b5dbeed.chunk.js */,
+				28EED3442BD1241600B231B0 /* 453.0b5dbeed.chunk.js.map */,
+				28EED3452BD1241600B231B0 /* main.77872807.js */,
+				28EED3462BD1241600B231B0 /* main.77872807.js.LICENSE.txt */,
+				28EED3472BD1241600B231B0 /* main.77872807.js.map */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		28EED34A2BD1241600B231B0 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3492BD1241600B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		28EED34B2BD1241600B231B0 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3422BD1241600B231B0 /* css */,
+				28EED3482BD1241600B231B0 /* js */,
+				28EED34A2BD1241600B231B0 /* media */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		28EED3532BD1241600B231B0 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				28EED34B2BD1241600B231B0 /* static */,
+				28EED34C2BD1241600B231B0 /* asset-manifest.json */,
+				28EED34D2BD1241600B231B0 /* favicon.ico */,
+				28EED34E2BD1241600B231B0 /* index.html */,
+				28EED34F2BD1241600B231B0 /* logo192.png */,
+				28EED3502BD1241600B231B0 /* logo512.png */,
+				28EED3512BD1241600B231B0 /* manifest.json */,
+				28EED3522BD1241600B231B0 /* robots.txt */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		28EED35D2BD124B400B231B0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				28EED35B2BD124B400B231B0 /* main.f855e6bc.css */,
+				28EED35C2BD124B400B231B0 /* main.f855e6bc.css.map */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		28EED3632BD124B400B231B0 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				28EED35E2BD124B400B231B0 /* 453.0b5dbeed.chunk.js */,
+				28EED35F2BD124B400B231B0 /* 453.0b5dbeed.chunk.js.map */,
+				28EED3602BD124B400B231B0 /* main.77872807.js */,
+				28EED3612BD124B400B231B0 /* main.77872807.js.LICENSE.txt */,
+				28EED3622BD124B400B231B0 /* main.77872807.js.map */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		28EED3652BD124B400B231B0 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				28EED3642BD124B400B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		28EED3662BD124B400B231B0 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				28EED35D2BD124B400B231B0 /* css */,
+				28EED3632BD124B400B231B0 /* js */,
+				28EED3652BD124B400B231B0 /* media */,
+			);
+			name = static;
+			path = build/static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +403,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EED3672BD124C900B231B0 /* asset-manifest.json in Resources */,
+				28EED3682BD124C900B231B0 /* favicon.ico in Resources */,
+				28EED3692BD124C900B231B0 /* index.html in Resources */,
+				28EED36A2BD124C900B231B0 /* logo192.png in Resources */,
+				28EED36B2BD124C900B231B0 /* logo512.png in Resources */,
+				28EED36C2BD124C900B231B0 /* manifest.json in Resources */,
+				28EED36D2BD124C900B231B0 /* robots.txt in Resources */,
+				28EED36E2BD124C900B231B0 /* main.f855e6bc.css in Resources */,
+				28EED36F2BD124C900B231B0 /* main.f855e6bc.css.map in Resources */,
+				28EED3702BD124C900B231B0 /* 453.0b5dbeed.chunk.js in Resources */,
+				28EED3712BD124C900B231B0 /* 453.0b5dbeed.chunk.js.map in Resources */,
+				28EED3722BD124C900B231B0 /* main.77872807.js in Resources */,
+				28EED3732BD124C900B231B0 /* main.77872807.js.LICENSE.txt in Resources */,
+				28EED3742BD124C900B231B0 /* main.77872807.js.map in Resources */,
+				28EED3752BD124C900B231B0 /* logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg in Resources */,
 				28EED3172BD1162400B231B0 /* Preview Assets.xcassets in Resources */,
 				28EED3142BD1162400B231B0 /* Assets.xcassets in Resources */,
 			);
