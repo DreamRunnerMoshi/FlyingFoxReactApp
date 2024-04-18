@@ -8,8 +8,10 @@
 import SwiftUI
 import SwiftData
 
+import FlyingFox
+
 @main
-struct FlyingFoxReactAppApp: App {
+struct FlyingFoxReactApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
