@@ -30,7 +30,8 @@ module.exports = {
     plugins:[
         new hwp({template:path.join(__dirname, '/src/index.html')})
     ]
-} ```
+}
+```
 
 2. In package.json File, I have build config like this `react-scripts build`. After running `npm run build`, we have build folder.
 
